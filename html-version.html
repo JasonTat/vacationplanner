@@ -6,13 +6,22 @@
     <title>Vacation Planner</title>
     <link rel="stylesheet" href="html-ver.css" />
 </head>
-<body>
-    
-    <div>
-        <h1>Vacation Planner :)</h1>
-    </div>
+<body>    
+
+
+    <header>            
+        <div class="login">
+            <h1>Vacation Planner :)</h1>
+            <button>Log In</button>
+            <button>Sign Up</button>      
+        </div>
+    </header>
 
     <div class="inputs">
+        <label for="">Guide:</label>
+        <select>
+            <option value="">Tokyo, Japan</option>
+        </select>
         <label>City</label>
         <input display="block" type="text"/>
         <label>Point of Interest</label>
@@ -21,9 +30,33 @@
         <input type="text"/>
         <label>Type (food, shopping, entertainment, etc)</label>
         <input type="text"/>
-        <button type="submit">Submit</button>
+        <label>Things to know</label>
+        <textarea></textarea>
+        <div>
+            <label>Importance</label>
+            <select>
+                <option value="">Must See</option>
+                <option value="">Important</option>
+                <option value="">Would be nice</option>
+                <option value="">If we're in the area lets check it out></option>
+            </select>            
+        </div>
 
+        <button type="submit">Submit</button>
+        
+        <div class="text-container"><p class="confirmation-msg">Done!</p></div>
+
+        <div class="finalized-inputs">
+
+            <p>Tokyo</p>
+            <p>Sky Tree</p>
+            <p>123 Address St</p>
+            <p>Attraction/Sightseeing</p>
+            <p>Comments</p>
+            <p>Must SEe</p>
+        </div>
     </div>
+
     <div>
     </div>
 
