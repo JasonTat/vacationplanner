@@ -17,45 +17,57 @@
         </div>
     </header>
 
-    <div class="inputs">
-        <label for="">Guide:</label>
-        <select>
-            <option value="">Tokyo, Japan</option>
-        </select>
-        <label>City</label>
-        <input display="block" type="text"/>
-        <label>Point of Interest</label>
-        <input type="text"/>
-        <label>Address</label>
-        <input type="text"/>
-        <label>Type (food, shopping, entertainment, etc)</label>
-        <input type="text"/>
-        <label>Things to know</label>
-        <textarea></textarea>
-        <div>
-            <label>Importance</label>
+    <div class="main-content-container">
+        <div class="inputs">
+            <label for="">Guide:</label>
             <select>
-                <option value="">Must See</option>
-                <option value="">Important</option>
-                <option value="">Would be nice</option>
-                <option value="">If we're in the area lets check it out></option>
-            </select>            
+                <option value="">Tokyo, Japan</option>
+            </select>
+            <!-- <label>City</label>
+            <input display="block" type="text"/> -->
+            <label>Point of Interest</label>
+            <input type="text"/>
+            <label>Address</label>
+            <input type="text"/>
+            <label>Type (food, shopping, entertainment, etc)</label>
+            <input type="text"/>
+            <label>Things to know</label>
+            <textarea></textarea>
+            <div>
+                <label>Importance</label>
+                <select>
+                    <option value="">Must See</option>
+                    <option value="">Important</option>
+                    <option value="">Would be nice</option>
+                    <option value="">If we're in the area lets check it out></option>
+                </select>            
+            </div>
+    
+            <button type="submit">Add</button>
+            
+            <div class="text-container"><p class="confirmation-msg">Done!</p></div>
+    
+            <div class="finalized-inputs">
+    
+                <!-- <p>Tokyo</p> -->
+                <p>Sky Tree</p>
+                <p>123 Address St</p>
+                <p>Attraction/Sightseeing</p>
+                <p>Comments</p>
+                <p>Must See</p>
+            </div>
         </div>
-
-        <button type="submit">Submit</button>
-        
-        <div class="text-container"><p class="confirmation-msg">Done!</p></div>
-
-        <div class="finalized-inputs">
-
-            <p>Tokyo</p>
-            <p>Sky Tree</p>
-            <p>123 Address St</p>
-            <p>Attraction/Sightseeing</p>
-            <p>Comments</p>
-            <p>Must SEe</p>
+    
+        <div>
+            <!-- sidebar to display the current list of items in that guide -->
+             <ol>
+                <li></li>
+             </ol>
+    
         </div>
     </div>
+
+
 
     <div>
     </div>

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "authLearning", "authLearning\authLearning.csproj", "{9809A20A-B234-4730-8639-B10F0F2EB53A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9809A20A-B234-4730-8639-B10F0F2EB53A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9809A20A-B234-4730-8639-B10F0F2EB53A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9809A20A-B234-4730-8639-B10F0F2EB53A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9809A20A-B234-4730-8639-B10F0F2EB53A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E86E618-D973-4064-98ED-D1D29C613E03}
+	EndGlobalSection
+EndGlobal

@@ -1,3 +1,8 @@
+.main-content-container {
+    display: flex;
+    justify-content: center;
+}
+
 div h1 {
     margin: auto;
     text-align: center;
@@ -162,14 +167,24 @@ button[type="submit"]:hover, .login button:hover, .logout button:hover {
 .edit-btn, .delete-btn {
     height: 2rem;
     border-radius: 10px;
-    border: 1px solid black;
+    border: 1px solid black;    
 }
 
 .edit-btn {
     margin-bottom: 12px;
 }
 
-.edit-btn:hover, .delete-btn:hover, .click-to-drag:hover {
+.delete-btn {
+    background-color: rgba(245, 32, 78, 1);
+}
+
+.delete-btn:hover {
+    background-color: rgba(245, 100, 132, 1);
+    box-shadow: 0 8px 8px 0 rgba(220, 239, 242.1);
+
+}
+
+.edit-btn:hover, .click-to-drag:hover {
     background-color: rgba(220, 239, 242,0.3);
     box-shadow: 0 8px 8px 0 rgba(220, 239, 242.1);
 }
