@@ -29,3 +29,9 @@ values ((select GuideID from guides where guidename = 'Mexico City'),'MexicoPOI'
 
 select * from guides
 select * from pointsofinterest
+
+alter table Guides
+add DateCreated DateTime
+
+alter table Guides
+add DateModified DateTime
