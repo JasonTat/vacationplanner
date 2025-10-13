@@ -1,5 +1,5 @@
 # vacationplanner
- Vacation Planner!
+## Vacation Planner!
 
 Vacation Planner, intended to function similar to the Guides functionality on iOS devices where users can create a guide and add points of interest into that guide for themselves.
 My reasoning for creating this is because I do not have an Apple Desktop so I can't do CRUD things on my desktop for planning trips.
@@ -16,4 +16,5 @@ MS SQL Server for the database
 Bootstrap
 
 LINQ for testing service methods(query/command) 
-Author / Creator / Developer: Jason Tat
+
+### Author / Creator / Developer: Jason Tat
