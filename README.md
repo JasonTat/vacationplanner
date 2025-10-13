@@ -18,3 +18,13 @@ Long Term Goals:
 - LINQ for testing service methods(query/command) 
 
 ### Author / Creator / Developer: Jason Tat
+
+### Wireframes (still in progress)
+
+<img width="745" height="373" alt="image" src="https://github.com/user-attachments/assets/72d895fd-41f4-4c49-806a-aed3f87e0093" />
+
+<img width="751" height="326" alt="image" src="https://github.com/user-attachments/assets/1a2063b6-5703-4fb6-9994-1a402ba622d7" />
+
+<img width="755" height="402" alt="image" src="https://github.com/user-attachments/assets/a29966f7-9109-4c76-a267-12fdfdffc54a" />
+
+
