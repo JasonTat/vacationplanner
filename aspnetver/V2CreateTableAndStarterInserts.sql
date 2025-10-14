@@ -25,6 +25,9 @@ insert into PointsOfInterest(GuideID, POIName, POIAddress, POIType, ThingsToKnow
 values ((select GuideID from guides where guidename = 'Tokyo'), 'Skytree', '123 Address', 'Sightseeing/Attraction', 'filler', 'Must see')
 
 insert into PointsOfInterest(GuideID, POIName, POIAddress, POIType, ThingsToKnow, Importance)
+values ((select GuideID from guides where guidename = 'Tokyo'), 'Ramen', '123 Ramen', 'Food', 'filler', 'Must see')
+
+insert into PointsOfInterest(GuideID, POIName, POIAddress, POIType, ThingsToKnow, Importance)
 values ((select GuideID from guides where guidename = 'Mexico City'),'MexicoPOI', '123 Address', 'Sightseeing/Attraction', 'filler', 'Must see')
 
 select * from guides
