@@ -3,7 +3,7 @@
 
 Vacation Planner, intended to function similar to the Guides functionality on iOS devices where users can create a guide and add points of interest into that guide for themselves.
 
-My reasoning for creating this is because I do not have an Apple Desktop so I can't do CRUD things on my desktop for planning trips.
+My reasoning for creating this is because I do not have an Apple Desktop so I can't do CRUD things on my desktop for planning trips and it's easier for me to plan it on my desktop rather than on my phone.
 
 Short Term Goals: 
 - Functioning application with CRUD capabilites and user authorization/authentication.
